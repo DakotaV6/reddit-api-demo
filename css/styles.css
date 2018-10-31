@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(154, 173, 191);
+    margin: 0;
+}
+header {
+    width: 100%;
+}
+.main-title {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(115, 130, 144);
+}
+.container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: 10px;
+    max-width: 1150px;
+}
+.post-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(255, 166, 134);
+    margin: 10px 0;
+}
+.post-title {
+    width: 90%;
+    text-align: center;
+    padding: 10px 0;
+}
+.post-thumbnail {
+    height: 140px;
+    width: 140px;
+}
+.post-author {
+    text-align: center;
+}
+.note {
+    width: 100%;
+    text-align: center;
+}
