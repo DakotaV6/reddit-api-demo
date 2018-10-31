@@ -15,7 +15,9 @@ $(document).ready(() => {
             </section>
             `);
         }
-    })
+    }).catch((error) => {
+        console.log("there was an error!", error);
+    });
 
 
 
